@@ -1,0 +1,190 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+#first > .row > .col-6 > div > div.f-top{
+    background-color: #ffffb6;
+    padding: 15px; 
+}
+
+#first > .row > .col-6 > div > div.f-bottom> form{
+    background-color: black; 
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}   
+
+#first > .row > .col-6 > div > div.f-bottom> form > input{
+    width: 90%;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+
+#first > .row > .col-6 > div > div.f-bottom> form > input::placeholder{
+    color: white;
+    padding: 5px 0;
+}
+
+#first > .row > .col-6 > div > div.f-bottom> form > div.f-radio{
+    width: 90%;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}   
+
+#first > .row > .col-6 > div > div.f-bottom> form > div.f-radio > .form-check{
+    margin-bottom: 5px;
+}   
+
+#first > .row > .col-6 > div > div.f-bottom> form > button{
+    background-color: #fffd38;
+    padding: 5px 15px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}   
+
+#first > .row > .col-6-right{
+    display: flex;
+    align-items: center;
+}   
+
+#second{
+    background-color: #ffffb6;
+    padding:50px;
+}
+
+#second > .container > .row > .col-sm-4 > .card{
+    border: none;
+}
+
+#second > .container > .row > .col-sm-4{
+    display: flex;
+    justify-content: center;
+}
+
+#second > .container > .row > .col-sm-4 > .card > .card-body{
+    background-color: #ffffb6;
+    padding-left: 0;
+}
+
+#third{
+    padding: 30px;
+    /* height: 130vh; */
+}
+
+#third > .container > .row-1 > .col-sm-4 > img {
+    height: 250px;
+    width: 100%;
+}
+
+#third > .container > .row-1 > .col-sm-4 > div {
+    padding: 5px 15px;
+    background-color: #fffd38;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+}
+
+#third > .container > .row-2 > .col-sm-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 350px; */
+}
+
+#third > .container > .row-2 > .col-sm-4 > .top{
+    width: 90%;
+    background-color: #ffffb6;
+    padding: 25px 15px;
+    /* height: 50vh; */
+    box-sizing:border-box;
+}
+
+#third > .container > .row-2 > .col-sm-4 > .bottom{
+    width: 90%;
+    padding: 10px 0;
+}
+
+#third > .container > .row-2 > .col-sm-4 > .bottom > .bottom-left > img{
+    border-radius: 50%;
+}
+
+#third > .container > .row-2 > .col-sm-4 > .bottom > .bottom-right > span{
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+
+#third > .container > .row-2 > .col-sm-4 > .bottom > .bottom-right > small{
+    margin: 5px 10px;
+}
+
+#last{
+    background-color: #ffffb6;
+    padding: 50px;
+}
+
+
+#last > .container > .row > .col-sm-6 > .row > .col-1 > p > i{
+    font-size: 1.2rem;
+}
+
+#last > .container > .row > .col-sm-6 > .row > .col-11 > p{
+    margin-bottom: 0;
+}
+
+#last > .container > .row > .col-sm-6 > form{
+    background-color: black; 
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}   
+
+#last > .container > .row > .col-sm-6 > form > input{
+    width: 90%;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+}  
+
+#last > .container > .row > .col-sm-6 > form > input::placeholder{
+    color: white;
+    padding: 5px 0;
+}   
+
+#last > .container > .row > .col-sm-6 > form > div.f-radio{
+    width: 90%;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+} 
+
+#last > .container > .row > .col-sm-6 > form > button{
+    background-color: wheat;
+    padding: 5px 15px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}   
+
+#last > .container > .row > .col-sm-6 > div.f-top{
+    background-color: white;
+    padding: 15px; 
+}   
+
+
+
+
+
